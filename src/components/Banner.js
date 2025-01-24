@@ -57,8 +57,9 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to MPK2025</span>
                 <h1>{`Motivasi Pengenalan Kampus`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Stepping for a better future" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <p>Informasi Khusus untuk Murid MA dan SMK Maskumambang: Sambut Kampus Anda dengan Kegiatan Motivasi dan Pengenalan Kampus 2025. Temukan Semua yang Anda Butuhkan di Sini, Dipersembahkan oleh Para Alumni
+                  .</p>
+                  <button onClick={() => console.log('connect')}>Mulai <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
